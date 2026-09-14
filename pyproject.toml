@@ -4,15 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "triton-sqlite-patch"
-version = "0.1.0"
+version = "0.1.1"
 description = "Optional inode-efficient local cache backend for Triton"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["packaging>=23"]
 license = "MIT"
-
-[project.optional-dependencies]
-test = ["pytest>=7"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
